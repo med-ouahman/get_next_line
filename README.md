@@ -2,7 +2,7 @@
 
 ## Mandatory Part:
 
-- This project's main goal is to read a line from a function each time it's called.
+- This project's main goal is to read a line from a file each time the get_next_line() function is called.
 - It handles expected errors like an invalid file descriptor or when a file doesn't have read permissions.
 - It reads a certain amount of bytes each time until if finds a newline character, then it allocates memory for the line.
 - It saves any leftovers in a static variable to make sure no bytes are skipped.
